@@ -19,9 +19,7 @@ public class NPC : MonoBehaviour, IIinteractable
     public void Interact()
     {
         if(dialogueData == null || !isDialogueActive)
-        {
             return;
-        }
         if (isDialogueActive)
         {
             NextLine();
