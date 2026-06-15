@@ -2,7 +2,7 @@ using UnityEngine;
 
 public class Movement : MonoBehaviour
 {
-    public float speed = 0.5f;
+    public float speed = 5f;
     private Rigidbody2D  rb;
     private Vector2 input; 
 
