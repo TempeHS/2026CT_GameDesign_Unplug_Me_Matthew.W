@@ -1,6 +1,6 @@
 using UnityEngine;
 
-public class Chest : MonoBehaviour, IIinteractable
+public class Chest : MonoBehaviour, IInteractable
 {
     public bool IsOpened {get; private set;}
     public string ChestID {get; private set;}

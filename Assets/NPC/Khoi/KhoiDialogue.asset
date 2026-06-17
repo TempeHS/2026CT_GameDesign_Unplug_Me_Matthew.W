@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dc8b6399e74035243a1a4fb4a6fc7a1b, type: 3}
+  m_Name: KhoiDialogue
+  m_EditorClassIdentifier: 
+  npcName: Khoi Cao
+  npcPortrait: {fileID: 7482667652216324306, guid: 4265b7ce5b5fffe4b97a22205cd4e0af, type: 3}
+  dialogueLines:
+  - Yo
+  - You are a jew
+  typingSpeed: 0.05
+  autoProgressLines: 0100
+  autoProgressDelay: 1.5

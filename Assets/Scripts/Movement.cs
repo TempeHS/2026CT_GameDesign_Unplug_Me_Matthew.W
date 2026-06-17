@@ -1,11 +1,10 @@
 using UnityEngine;
-using UnityEngine.InputSystem;
 
 public class Movement : MonoBehaviour
 {
     public float speed = 5f;
     private Rigidbody2D  rb;
-    private Vector2 moveInput; 
+    private Vector2 input; 
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
@@ -16,11 +15,14 @@ public class Movement : MonoBehaviour
     // Called once per physics frame - used for physics
     void Update()
     {
-        rb.linearVelocity = moveInput * speed;
+        input.x = Input.GetAxisRaw("Horizontal");
+        input.y = Input.GetAxisRaw("Vertical");
+
+        input.Normalize();
     }
 
-    public void Move(InputAction.CallbackContext context)
+    public void FixedUpdate()
     {
-        moveInput = context.ReadValue<Vector2>();
+        rb.linearVelocity = input * speed;
     }
 }
