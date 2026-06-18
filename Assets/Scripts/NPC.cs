@@ -13,22 +13,21 @@ public class NPC : MonoBehaviour, IInteractable
 
     public bool CanInteract()
     {
-        return !isDialogueActive;
+        return true;
     }
 
     public void Interact()
     {
-        if(dialogueData == null || !isDialogueActive)
-        {
+        if(dialogueData == null)
             return;
-        }
+
         if (isDialogueActive)
         {
-            NextLine();
+            StartDialogue();
         }
         else
         {
-            StartDialogue();
+            NextLine();
         }
     }
     void StartDialogue()
