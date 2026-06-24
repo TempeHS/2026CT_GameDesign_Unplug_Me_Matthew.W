@@ -23,11 +23,11 @@ public class NPC : MonoBehaviour, IInteractable
 
         if (isDialogueActive)
         {
-            StartDialogue();
+            NextLine();
         }
         else
         {
-            NextLine();
+            StartDialogue();
         }
     }
     void StartDialogue()
@@ -35,7 +35,7 @@ public class NPC : MonoBehaviour, IInteractable
         isDialogueActive = true;
         dialogueIndex = 0;
 
-        nameText.SetText(dialogueData.name);    
+        nameText.SetText(dialogueData.npcName);    
 
         dialoguePanel.SetActive(true);
         StartCoroutine(Typeline());

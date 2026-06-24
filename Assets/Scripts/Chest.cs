@@ -10,18 +10,16 @@ public class Chest : MonoBehaviour, IInteractable
     {
         ChestID ??=GlobalHelper.GenerateUniqueID(gameObject);
     }
-
     
     public bool CanInteract()
     {
         return !IsOpened;
-
     }
 
     public void Interact()
     {
         if (!CanInteract()) return;
-
+        OpenChest();
     }
 
     public void OpenChest ()
