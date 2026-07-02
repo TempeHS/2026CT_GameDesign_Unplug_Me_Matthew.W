@@ -28,7 +28,7 @@ public class Chest : MonoBehaviour, IInteractable
 
         if (itemPrefab)
         {
-            
+            GameObject droppedItem = Instantiate(itemPrefab, transform.position + Vector3.down, Quaternion.identity);
         }
     }
 
