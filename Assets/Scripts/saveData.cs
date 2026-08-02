@@ -1,6 +1,7 @@
 using UnityEngine;
 
-public class NewEmptyCSharpScript
+[System.Serializable]
+public class SaveData
 {
-    
+    public Vector3 playerPosition;
 }
