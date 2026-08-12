@@ -15,7 +15,7 @@ MonoBehaviour:
   npcName: Jamie
   npcPortrait: {fileID: 7482667652216324306, guid: 4265b7ce5b5fffe4b97a22205cd4e0af, type: 3}
   dialogueLines:
-  - I love firefly
+  - Hi there! I firelfy
   typingSpeed: 0.05
   autoProgressLines: 00
   autoProgressDelay: 1.5
