@@ -15,7 +15,17 @@ MonoBehaviour:
   npcName: Claude
   npcPortrait: {fileID: 7482667652216324306, guid: 4265b7ce5b5fffe4b97a22205cd4e0af, type: 3}
   dialogueLines:
+  - Yogurt
   - Ready for wave 1?
+  - Alright then
+  - KEYS
   typingSpeed: 0.05
-  autoProgressLines: 00
+  autoProgressLines: 0101
+  endDialogueLines: 00000101
   autoProgressDelay: 1.5
+  choices:
+  - dialogueIndex: 1
+    choices:
+    - Yes
+    - Nah
+    nextDialogueIndexes: 0200000003000000
