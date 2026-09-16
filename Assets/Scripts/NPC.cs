@@ -51,6 +51,23 @@ public class NPC : MonoBehaviour, IInteractable
             dialogueUI.SetDialogueText(dialogueData.dialogueLines[dialogueIndex]);
             isTyping = false;
         }
+
+        dialogueUI.ClearChoices();
+
+        if(dialogueData.endDialogueLines.Length > dialogueIndex && dialogueData.endDialogueLines[dialogueIndex])
+        {
+            EndDialogue();
+            return;
+        }
+
+        foreach(DialogueChoice dialogueChoice in dialogueData.choices)
+        {
+            if(dialogueChoice.dialogueIndex == dialogueIndex)
+            {
+                return;
+            }
+        }
+
         else if(++dialogueIndex < dialogueData.dialogueLines.Length)
         {
             StartCoroutine(Typeline());
@@ -79,6 +96,11 @@ public class NPC : MonoBehaviour, IInteractable
             yield return new WaitForSeconds(dialogueData.autoProgressDelay);
             NextLine();
         }
+    }
+
+    void DisplayChoices(DialogueChoice choice)
+    {
+        for(int i = 0;)
     }
 
     public void EndDialogue()
