@@ -29,12 +29,12 @@
 ---
 
 ## 1. Game Overview
-
+A RPG dungeon crawler where your goal is to kill cloud themed enemies and progress a dungeon in the sky
 ### 1.1 Genre
-
+RPG
 
 ### 1.2 Target Audience
-
+Teenagers or people who enjoy RPGs
 
 ### 1.3 Game Summary
 
