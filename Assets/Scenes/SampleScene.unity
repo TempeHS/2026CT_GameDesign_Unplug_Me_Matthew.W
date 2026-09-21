@@ -622,11 +622,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 141cf13b7dfaa5d49a3998e0b12973d0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  dialoguePanel: {fileID: 497992848}
-  dialogueText: {fileID: 439215046}
-  nameText: {fileID: 1619529662}
-  choiceContainer: {fileID: 0}
-  choiceButtonPrefab: {fileID: 0}
 --- !u!1 &289958429
 GameObject:
   m_ObjectHideFlags: 0
@@ -5344,7 +5339,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ff3c946e10500f740bc54c49122dabf0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  dialogueData: {fileID: 11400000, guid: d791185ad299fc540b30c36f5478c849, type: 2}
+  dialogueData: {fileID: 11400000, guid: aba6f002ee195554ebed9d857ce6e890, type: 2}
+  dialoguePanel: {fileID: 497992848}
+  dialogueText: {fileID: 439215046}
+  nameText: {fileID: 1619529662}
 --- !u!61 &1436435217
 BoxCollider2D:
   m_ObjectHideFlags: 0
