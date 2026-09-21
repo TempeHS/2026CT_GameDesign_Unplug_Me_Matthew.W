@@ -12,13 +12,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: dc8b6399e74035243a1a4fb4a6fc7a1b, type: 3}
   m_Name: Jamie_Dialogue
   m_EditorClassIdentifier: 
-  npcName: Claude
+  npcName: Jamie
   npcPortrait: {fileID: 7482667652216324306, guid: 4265b7ce5b5fffe4b97a22205cd4e0af, type: 3}
   dialogueLines:
+<<<<<<< HEAD
   - Yogurt
   - Ready for wave 1?
   - Alright then
   - KEYS
+=======
+  - Hi there! I firelfy
+>>>>>>> parent of 77cc908 (WIP: enemy spawning)
   typingSpeed: 0.05
   autoProgressLines: 0101
   endDialogueLines: 00000101
