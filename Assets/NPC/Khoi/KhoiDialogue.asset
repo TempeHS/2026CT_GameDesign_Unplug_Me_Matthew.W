@@ -12,11 +12,18 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: dc8b6399e74035243a1a4fb4a6fc7a1b, type: 3}
   m_Name: KhoiDialogue
   m_EditorClassIdentifier: 
+<<<<<<<< HEAD:Assets/NPC/Khoi/KhoiDialogue.asset
   npcName: Khoi Cao
   npcPortrait: {fileID: 7482667652216324306, guid: 4265b7ce5b5fffe4b97a22205cd4e0af, type: 3}
   dialogueLines:
   - Yo
   - You are a jew
+========
+  npcName: Jamie
+  npcPortrait: {fileID: 7482667652216324306, guid: 4265b7ce5b5fffe4b97a22205cd4e0af, type: 3}
+  dialogueLines:
+  - Hi there! I firelfy
+>>>>>>>> parent of 77cc908 (WIP: enemy spawning):Assets/NPC/Jamie/Jamie_Dialogue.asset
   typingSpeed: 0.05
   autoProgressLines: 0100
   autoProgressDelay: 1.5
