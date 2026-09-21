@@ -485,7 +485,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 204185871426364955, guid: e013d3a6a424fda45a75dccb55414cde, type: 3}
+  m_Sprite: {fileID: 2373183141213679312, guid: 436f5b7906e5ff84ca82ae09d42ba2ad, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -686,7 +686,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 6101470820670944748, guid: 1d66ea5eeb572874fb13398d8a76a5e4, type: 3}
+  m_Sprite: {fileID: 4810702507026764722, guid: c7cf0f6e75f0c4a46bf9eebd85977f7c, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -1024,12 +1024,12 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 475474632}
   serializedVersion: 2
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 3.3526263, y: 1.3239398, z: 0.11502369}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 1.0356, y: 4.93, z: 0}
   m_LocalScale: {x: 19.0112, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 1718294082}
+  m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &493810013
 GameObject:
@@ -1637,7 +1637,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 204185871426364955, guid: e013d3a6a424fda45a75dccb55414cde, type: 3}
+  m_Sprite: {fileID: 2373183141213679312, guid: 436f5b7906e5ff84ca82ae09d42ba2ad, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -1855,12 +1855,12 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 719759566}
   serializedVersion: 2
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -6.7129736, y: -3.64386, z: 0.11502369}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -9.03, y: -0.0378, z: 0}
   m_LocalScale: {x: 1.0722317, y: 8.9644, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 1718294082}
+  m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &772440230
 GameObject:
@@ -2153,12 +2153,12 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 865392647}
   serializedVersion: 2
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 13.456126, y: -3.64386, z: 0.11502369}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 11.1391, y: -0.0378, z: 0}
   m_LocalScale: {x: 1.0722317, y: 8.9644, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 1718294082}
+  m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &902200556
 GameObject:
@@ -2378,7 +2378,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 204185871426364955, guid: e013d3a6a424fda45a75dccb55414cde, type: 3}
+  m_Sprite: {fileID: 2373183141213679312, guid: 436f5b7906e5ff84ca82ae09d42ba2ad, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -5305,12 +5305,12 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1391620854}
   serializedVersion: 2
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 3.2970264, y: -8.4160595, z: 0.11502369}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0.98, y: -4.81, z: 0}
   m_LocalScale: {x: 19.0112, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 1718294082}
+  m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1436435215
 GameObject:
@@ -5326,7 +5326,7 @@ GameObject:
   - component: {fileID: 1436435217}
   - component: {fileID: 1436435216}
   m_Layer: 0
-  m_Name: NPC_Enemy_Spawner
+  m_Name: NPC_Jamie
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -5737,9 +5737,9 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1575527954}
+      - m_Target: {fileID: 0}
         m_TargetAssemblyTypeName: NPC, Assembly-CSharp
-        m_MethodName: 
+        m_MethodName: EndDialogue
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -5806,7 +5806,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &1575527955
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6201,11 +6201,7 @@ Transform:
   m_LocalPosition: {x: -2.3170264, y: 3.60606, z: -0.11502369}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
-  m_Children:
-  - {fileID: 475474636}
-  - {fileID: 1391620858}
-  - {fileID: 865392651}
-  - {fileID: 719759570}
+  m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1734003001
@@ -6313,7 +6309,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 6101470820670944748, guid: 1d66ea5eeb572874fb13398d8a76a5e4, type: 3}
+  m_Sprite: {fileID: 4810702507026764722, guid: c7cf0f6e75f0c4a46bf9eebd85977f7c, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -7048,7 +7044,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 6101470820670944748, guid: 1d66ea5eeb572874fb13398d8a76a5e4, type: 3}
+  m_Sprite: {fileID: 4810702507026764722, guid: c7cf0f6e75f0c4a46bf9eebd85977f7c, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -7181,4 +7177,8 @@ SceneRoots:
   - {fileID: 1655488507}
   - {fileID: 2124143532}
   - {fileID: 1734003002}
+  - {fileID: 475474636}
+  - {fileID: 1391620858}
+  - {fileID: 865392651}
+  - {fileID: 719759570}
   - {fileID: 1718294082}
