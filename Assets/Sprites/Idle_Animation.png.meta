@@ -1,10 +1,13 @@
 fileFormatVersion: 2
-guid: bc21cf914404c11468e75983473dbd37
+guid: 8f63159a17bf2be49a519272b6894c46
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -448751519769586280
-    second: WalkingAnimationForward_0
+      213: -1516387744112839604
+    second: Idle_Animation_0
+  - first:
+      213: -8026313669228311977
+    second: Idle_Animation_1
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -37,7 +40,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -51,7 +54,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 512
+  spritePixelsToUnits: 16
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -152,13 +155,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: WalkingAnimationForward_0
+      name: Idle_Animation_0
       rect:
         serializedVersion: 2
         x: 0
-        y: 0
-        width: 512
-        height: 512
+        y: 16
+        width: 16
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -167,8 +170,74 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 89597bfced6b5c9f0800000000000000
-      internalID: -448751519769586280
+      spriteID: c44f5628165b4fae0800000000000000
+      internalID: -1516387744112839604
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Idle_Animation_1
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 16
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 455f608787e307c4eb9911635458f204
+      internalID: 1090773583
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Idle_Animation_2
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 950ed5fa2ea97bd49ab0c9f9fff3e11c
+      internalID: -1718492011
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Idle_Animation_3
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 0
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4fbad547cda7977488fbbd5bcda5b6e6
+      internalID: 3271500
       vertices: []
       indices: 
       edges: []
@@ -177,7 +246,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: de802c34449306148bb602d970fb6484
     internalID: 0
     vertices: []
     indices: 
@@ -187,7 +256,10 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      WalkingAnimationForward_0: -448751519769586280
+      Idle_Animation_0: -1516387744112839604
+      Idle_Animation_1: 1090773583
+      Idle_Animation_2: -1718492011
+      Idle_Animation_3: 3271500
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

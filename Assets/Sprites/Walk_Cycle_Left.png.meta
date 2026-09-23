@@ -1,13 +1,13 @@
 fileFormatVersion: 2
-guid: c891aac7cca2d284ca08e7ef63f16e35
+guid: e432ed1126aec9b45b0fe6a2e3d41fd2
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 2111761667739061958
-    second: WalkingAnimationRight_0
+      213: 2051003197637367925
+    second: Walk_Cycle_Left_0
   - first:
-      213: -7386524080671377126
-    second: WalkingAnimationRight_1
+      213: 2785125958611437653
+    second: Walk_Cycle_Left_1
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -40,7 +40,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -54,7 +54,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 512
+  spritePixelsToUnits: 16
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -155,13 +155,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: WalkingAnimationRight_0
+      name: Walk_Cycle_Left_0
       rect:
         serializedVersion: 2
-        x: 14
-        y: 0
-        width: 243
-        height: 512
+        x: 0
+        y: 16
+        width: 16
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -170,20 +170,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 6ce8fd75c0c7e4d10800000000000000
-      internalID: 2111761667739061958
+      spriteID: 5789d54aa80a67c10800000000000000
+      internalID: 2051003197637367925
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: WalkingAnimationRight_1
+      name: Walk_Cycle_Left_1
       rect:
         serializedVersion: 2
-        x: 270
-        y: 0
-        width: 242
-        height: 512
+        x: 16
+        y: 16
+        width: 16
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -192,8 +192,52 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: a19b6beeb7bcd7990800000000000000
-      internalID: -7386524080671377126
+      spriteID: 55801c99d41c6a620800000000000000
+      internalID: 2785125958611437653
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Walk_Cycle_Left_2
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c7fdd4cd4c42a2341a7d06273162098d
+      internalID: 1564480806
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Walk_Cycle_Left_3
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 0
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 675adbf959127b24c8d2e923e1d32c32
+      internalID: -1122749799
       vertices: []
       indices: 
       edges: []
@@ -202,7 +246,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 29f500076e7c35d4cbadab7344947bc2
     internalID: 0
     vertices: []
     indices: 
@@ -212,8 +256,10 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      WalkingAnimationRight_0: 2111761667739061958
-      WalkingAnimationRight_1: -7386524080671377126
+      Walk_Cycle_Left_0: 2051003197637367925
+      Walk_Cycle_Left_1: 2785125958611437653
+      Walk_Cycle_Left_2: 1564480806
+      Walk_Cycle_Left_3: -1122749799
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

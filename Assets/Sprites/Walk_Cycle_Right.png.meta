@@ -1,10 +1,13 @@
 fileFormatVersion: 2
-guid: efb5a4dd507ebb244b697cab4b6153f0
+guid: d489d01176286b94095854ebbb692e14
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -9196765977500394283
-    second: WalkingAnimationBack_0
+      213: -2981938697638846462
+    second: Walk_Cycle_Right_0
+  - first:
+      213: 8129510791705828116
+    second: Walk_Cycle_Right_1
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -51,7 +54,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 512
+  spritePixelsToUnits: 16
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -152,13 +155,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: WalkingAnimationBack_0
+      name: Walk_Cycle_Right_0
       rect:
         serializedVersion: 2
         x: 0
-        y: 0
-        width: 512
-        height: 512
+        y: 16
+        width: 16
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -167,8 +170,74 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 5dcd0bce1168e5080800000000000000
-      internalID: -9196765977500394283
+      spriteID: 200ee31bd860e96d0800000000000000
+      internalID: -2981938697638846462
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Walk_Cycle_Right_1
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 16
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 41b94593ef2d1d070800000000000000
+      internalID: 8129510791705828116
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Walk_Cycle_Right_2
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 486b1fad813cb414ab69c94d6209c57a
+      internalID: -1400238488
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Walk_Cycle_Right_3
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 0
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2e8aa54a7dd6057469c0ed350cd0ef37
+      internalID: -406157037
       vertices: []
       indices: 
       edges: []
@@ -177,7 +246,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 8ef66325097fd8042b52c1b4a44a12f2
     internalID: 0
     vertices: []
     indices: 
@@ -187,7 +256,10 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      WalkingAnimationBack_0: -9196765977500394283
+      Walk_Cycle_Right_0: -2981938697638846462
+      Walk_Cycle_Right_1: 8129510791705828116
+      Walk_Cycle_Right_2: -1400238488
+      Walk_Cycle_Right_3: -406157037
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
