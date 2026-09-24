@@ -69,10 +69,10 @@ You enter the game and load onto a start screen. You are presented with two butt
 
 | Field | Detail |
 |---|---|
-| **Video Title** | |
-| **Link / Embed** | |
-| **Duration** | |
-| **Description** | |
+| **Video Title** |CT project |
+| **Link / Embed** |https://youtu.be/sX-_BJfHigs |
+| **Duration** | 1 minute 25 seconds|
+| **Description** |Nothing |
 
 ### 2.2 Feature Highlight Clips
 
