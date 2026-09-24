@@ -37,20 +37,20 @@ RPG
 Teenagers or people who enjoy RPGs
 
 ### 1.3 Game Summary
-
+You enter the game and load onto a start screen. You are presented with two buttons. A start button to enter the actual game and exit to close the program. After pressing "start", you load into a new scene where you are presented with an npc. The npc introduces itself as claude and after interacting with Claude, you ca
 
 ### 1.4 Win / Loss Conditions
 | Condition | Description |
 |---|---|
-| Win | |
-| Loss | |
+| Win |kill all the enemies that claude spawns |
+| Loss |You die to all the enemies claude spawns |
 
 ### 1.5 Platform & Build Settings
 | Setting | Detail |
 |---|---|
-| Target Platform | |
-| Resolution | |
-| Build Type | |
+| Target Platform |Windows |
+| Resolution |1920 x 1080 |
+| Build Type |Developing |
 
 ---
 
@@ -98,24 +98,24 @@ Teenagers or people who enjoy RPGs
 ### 3.2 Player Controls
 | Action | Input (Keyboard / Controller) | Description |
 |---|---|---|
-| | | |
-| | | |
+|Movement |WASD |Allows the player to move in 8 directions |
+|Interaction |E |Allows the player to interact with game objects deemed interactable |
 | | | |
 | | | |
 
 ### 3.3 Physics & Collision
 | Feature | Description |
 |---|---|
-| | |
+|Boundaries |Keeps the player within the designated play area |
 | | |
 | | |
 
 ### 3.4 Game Loop
 | Stage | Description |
 |---|---|
-| Start / Initialisation | |
-| Core Loop | |
-| Win / End State | |
+| Start / Initialisation |Press the start button in the start menu |
+| Core Loop |The player attempts to kill all the enemies spawned |
+| Win / End State |The player kills all the enemies |
 | Restart | |
 
 ### 3.5 Scoring & Progression
@@ -158,9 +158,9 @@ Teenagers or people who enjoy RPGs
 
 | Animation | Object / Character | Description | Screenshot |
 |---|---|---|---|
-| | | | |
-| | | | |
-| | | | |
+|Walking animation |Player |The animation changes depending on what direction you are moving in | |
+|Idle animation |Player |Plays when you aren't moving | |
+|Health depletion |HealthText |Gives a bouncing affect to the text every time you take damage | |
 
 > Add screenshot images using: `![Animation Name](./docs/screenshots/animation_name.png)`
 
@@ -235,8 +235,8 @@ Teenagers or people who enjoy RPGs
 ### 6.1 HUD Elements
 | Element | Purpose | Screenshot |
 |---|---|---|
-| | | |
-| | | |
+|Health |Displays the max health and how much health you currently have | |
+|Dialogue Panel |Displays the NPC dialogue | |
 | | | |
 
 > Add screenshot images using: `![HUD Element](./docs/screenshots/hud_name.png)`
@@ -244,8 +244,8 @@ Teenagers or people who enjoy RPGs
 ### 6.2 Menus
 | Menu | Purpose | Screenshot |
 |---|---|---|
-| Main Menu | | |
-| Pause Menu | | |
+| Main Menu |Meant to display the start and exit button for you to enter and exit the game | |
+| Pause Menu |To stop the game from running so you can resume at any other time | |
 | Game Over Screen | | |
 | | | |
 
@@ -258,8 +258,8 @@ Teenagers or people who enjoy RPGs
 ### 7.1 Scene List
 | Scene Name | Purpose | Description |
 |---|---|---|
-| | | |
-| | | |
+|Start scene |The start menu and what you see when you enter the game and contains the start and exit buttons which takes you into the game itself or exits the program | |
+|SampleScene |The actual game itself whe you have the main gameplay | |
 | | | |
 | | | |
 
@@ -275,7 +275,7 @@ Teenagers or people who enjoy RPGs
 ### 7.3 Scene Management
 | Feature | Description |
 |---|---|
-| Scene Loading Method | |
+| Scene Loading Method |Transfers between scenes using buttons |
 | Persistent Data Between Scenes | |
 | Scene Transition Effects | |
 
