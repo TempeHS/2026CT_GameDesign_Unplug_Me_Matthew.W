@@ -10,6 +10,7 @@ public class NPC : MonoBehaviour, IInteractable
 
     private int dialogueIndex;
     private bool isTyping, isDialogueActive;
+    public WaveSpawner waveSpawner;
 
     public bool CanInteract()
     {
@@ -85,5 +86,10 @@ public class NPC : MonoBehaviour, IInteractable
         isDialogueActive = false;
         dialogueText.SetText("");
         dialoguePanel.SetActive(false);
+
+        if (waveSpawner != null)
+        {
+            waveSpawner.StartWaves();
+        }
     }
 }
